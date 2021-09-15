@@ -170,6 +170,7 @@ func (l *linkedList) print_list(current_list ...*node) {
 		} else {
 			fmt.Printf("List has %d nodes\n -- press enter --", l.length)
 			scanner.Scan()
+			fmt.Printf("\n")
 			return
 		}
 	} else {
